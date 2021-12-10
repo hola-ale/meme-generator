@@ -2,11 +2,6 @@ main {
     padding: 36px;
 }
 
-.meme {
-    position: relative;
-    display: flex;
-}
-
 .form {
     display: grid;
     grid-template: 40px 40px / 1fr 1fr;
@@ -32,11 +27,17 @@ main {
     cursor: pointer;
 }
 
+.meme {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .meme--image {
     max-width: 100%;
     margin-top: 17px;
     border-radius: 5px;
-    justify-content: center;
 }
 
 .meme--text {
